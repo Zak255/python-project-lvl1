@@ -1,0 +1,16 @@
+from random import randint
+
+RULES = 'Answer "yes" if number even otherwise answer "no".'
+
+
+def run_game():
+    question = randint(1, 100)
+
+    if question % 2 == 0:
+        is_even = "yes"
+            print('Correcte!')
+    else:
+        is_even = "no"
+            print('Correcte!')
+
+    return (question, is_even)
