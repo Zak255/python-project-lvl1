@@ -1,24 +1,10 @@
-import prompt
+from brain_games.game_engine import game_run
+from brain_games.games import even
 
 
-MAX_ROUNDS = 3
+def main():
+    game_run(even)
 
-def run_game(game_name):
-    print("Welcome to the Brain Games!")
-    user_name = prompt.string("May I have your name? ")
-    print(f"Hello, {user_name}!")
-    print(game_name.DESCRIPTION)
-    round_number = 1
-    while round_number <= MAX_ROUNDS:
-        question, correct_answer = game_name.make_question_and_correct_answer()
-        print(f"Question: {question}")
-        user_answer = prompt.string("Your answer: ")
-        if not (user_answer == correct_answer):
-            print(f"'{user_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct_answer}'.\n"
-                  f"Let\'s try again, {user_name}!")
-            break
-        print("Correct!")
-        round_number += 1
-    else:
-        print(f"Congratulations, {user_name}!")
+
+if __name__ == "__main__":
+    main()
