@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Thu Jun 30 14:54:37 2022
+
+# Make data base, printed on Wed Jul 13 10:24:44 2022
 
 # Variables
 
@@ -38,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/96/lywdlvy96_767xf377r7t3_40000gn/T/vscode-ipc-fe70601a-9c42-490b-99ca-f5e25b41562c.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/96/lywdlvy96_767xf377r7t3_40000gn/T/vscode-ipc-8b2c55db-7fd0-44b3-8cd5-73642105ef12.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -52,7 +55,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.e5xs86SWYj/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.qaPvFUKvjg/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -142,7 +145,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1183
+VSCODE_PID = 919
 # variable set hash-table stats:
 # Load=66/1024=6%, Rehash=0, Collisions=1/90=1%
 
@@ -244,6 +247,7 @@ install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  commands to execute (from `Makefile', line 2):
 	poetry install
 	
@@ -261,8 +265,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jun 30 14:54:37 2022
+# Finished Make data base on Wed Jul 13 10:24:44 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
