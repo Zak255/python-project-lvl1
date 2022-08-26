@@ -1,43 +1,35 @@
-# import random
+from random import randint
 
 
-# print("Welcome to the Brain Games!")
-# user_name = input("May I have your name? ")
-# print(f"Hello, {user_name}!")
-# print('Answer "yes" if the number is even, otherwise answer "no".')
-# count = 0
-# num = random.randint(1, 100)
-# for num in range(count):
-#     question, correct_answer % 2 == 0
-#     print("Question: {}".format(question))
-#     user_answer = input("Your answer : ")
-#     if correct_answer == user_answer:
-#         print("Correct!")
+def is_even_game(start, finish):
+    curcle = 0
+    print("Welcome to the Brain Games!")
+    user_name = input("May I have your name? ")
+    print(f"Hello, {user_name.capitalize()}!")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    
+    for i in range(0, 3):
 
-# import prompt 
+        random_number = randint(0, 101)
+        print("Questions : {}".format (random_number))
+        answer = input()
 
-# from random import randint
+        if random_number % 2 == 0 and answer.capitalize() == "Yes":
+            print(f"Your answer : {answer.capitalize()}!")
+            answer == "Yes" and answer != "No"
+            print("Correct !". format(answer.capitalize()))
+            curcle += 1
 
-# print("Welcome to the Brain Games!")
-# user_name = input("May I have your name? ")
-# print(f"Hello, {user_name}!")
-# print('Answer "yes" if the number is even, otherwise answer "no".')
-# random_number = randint(1, 100)
-# curcle = 0
-# winscore = 3
-# answer = input()
-# # congrats = print('Congratulations, {name}!')
-# def is_even_game(even):
-#     while curcle < even:
-#         if random_number % 2 == 0 and answer == "Yes":
-#             print("Correct {} !".format (answer))
-#             curcle += 1
-#             break
-#         elif random_number % 2 != 0 and answer != "No":
-#             print("No Correct {} !".format (answer))
-#             break
-#         else:
-#             print("Game Over !")
-#         break
-# print(is_even_game())
+        elif random_number % 2 != 0 and answer.capitalize() == "No":
+            print(f"Your answer : {answer.capitalize()}!")
+            answer == "No" and answer != "Yes"
+            print("Correct !". format(answer.capitalize()))
+            curcle += 1
 
+        else:
+            right_answer = "Yes" if random_number % 2 == 0 else "No"
+            print(f"'{answer.capitalize()}' is wrong answer :(. Correct answer was '{right_answer.capitalize()}'. Let\'s try again, {user_name.capitalize()}!" )
+            break
+    if curcle == 3:
+        print(f"Congratulations, {user_name.capitalize()}!")
+is_even_game(0, 101)
