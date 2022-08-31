@@ -193,7 +193,7 @@
 from random import randint
 
 
-def is_even_game(start, fifnish):
+def is_even_game(start, finish):
     curcle = 0
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")

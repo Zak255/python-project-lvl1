@@ -1,7 +1,7 @@
 from random import randint
 
 
-def is_even_game(start, finish):
+def is_even_game():
     curcle = 0
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
@@ -32,4 +32,4 @@ def is_even_game(start, finish):
             break
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
-is_even_game(0, 101)
+
