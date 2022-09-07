@@ -190,39 +190,94 @@
 # print(transcate("Hexlet"))
 
 
+# from random import randint
+import random
+
+
+# def is_calc_game():
+#     curcle = 0
+#     print("Welcome to the Brain Games!")
+#     user_name = input("May I have your name? ")
+#     print(f"Hello, {user_name.capitalize()}!")
+#     print('What is the result of the expression?')
+    
+#     for i in range(0, 3):
+        
+#         random_number = randint(0, 20)
+#         random_number1 = randint(10, 30)
+#         value = ['+','-','*']
+#         value_answer = random.choice(value)
+#         print("Questions : {}".format(random_number),(value_answer),(random_number1))
+#         answer = int(input())
+
+#         if  value_answer == '+' and random_number + random_number1:
+#             print(f"Your answer : {answer}!")
+#             print("Correct !". format())
+#             curcle += 1
+
+#         elif value_answer == '-' and random_number - random_number1:
+#             print(f"Your answer : {answer}!")
+#             print("Correct !". format(answer))
+#             curcle += 1
+
+#         elif value_answer == '*' and random_number - random_number1:
+#             print(f"Your answer : {answer}!")
+#             print("Correct !". format(answer))
+#             curcle += 1
+
+#         else:
+#             right_answer = f"{random_number} {value_answer} {random_number1}"
+#             print(f"'{answer}' is wrong answer ;(. Correct answer was '{eval(right_answer)}'.Let\'s try again, {user_name.capitalize()} !")
+#             break
+
+#     if curcle == 3:
+#         print(f"Congratulations, {user_name.capitalize()}!")
+
+# is_calc_game()
+
+
 from random import randint
+import random
 
 
-def is_even_game(start, finish):
+def is_calc_game():
     curcle = 0
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    
+    print('What is the result of the expression?')
+
     for i in range(0, 3):
-        
-        random_number = randint(0, 101)
-        print("Questions : {}".format (random_number))
-        answer = input()
-        
-        if random_number % 2 == 0 and answer.capitalize() == "Yes":
-            print(f"Your answer : {answer.capitalize()}!")
-            answer == "Yes" and answer != "No"
-            print("Correct !". format(answer.capitalize()))
+        random_number1 = randint(0, 20)
+        random_number2 = randint(1, 18)
+        value = ['+', '-', '*']
+        value_answer = random.choice(value)
+        operation = f"{random_number1} {value_answer} {random_number2}"
+        print("Questions : {}".format(operation))
+        answer = int(input())
+
+        if value_answer == '+' and answer == eval(operation):
+            print(f"Your answer : {answer}!")
+            print("Correct !".format())
             curcle += 1
 
-        elif random_number % 2 != 0 and answer.capitalize() == "No":
-            print(f"Your answer : {answer.capitalize()}!")
-            answer == "No" and answer != "Yes"
-            print("Correct !". format(answer.capitalize()))
+        elif value_answer == '-' and answer == eval(operation):
+            print(f"Your answer : {answer}!")
+            print("Correct !".format())
+            curcle += 1
+
+        elif value_answer == '*' and answer == eval(operation):
+            print(f"Your answer : {answer}!")
+            print("Correct !".format())
             curcle += 1
 
         else:
-            right_answer = "yes" if random_number % 2 == 0 else "no"
-            print(f"{answer.capitalize()} is wrong answer ;(. Correct answer was '{right_answer.capitalize()}'. Let\'s try again,{user_name.capitalize()}!" )
+            print(
+                f"'{answer}' is wrong answer ;(. Correct answer was '{eval(operation)}'.Let\'s try again, {user_name.capitalize()} !")
             break
+
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
 
-is_even_game(0, 101)
+
+is_calc_game()
