@@ -39,6 +39,3 @@ def is_calc_game():
 
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
-
-
-is_calc_game()
