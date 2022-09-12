@@ -2,7 +2,6 @@ from random import randint
 from math import gcd
 
 
-
 def logic_gcd_game():
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
@@ -17,7 +16,6 @@ def logic_gcd_game():
         answer = int(input())
 
         while random_number1 != random_number2:
-
             if random_number1 > random_number2:
                 random_number1 -= random_number2
 
@@ -25,9 +23,11 @@ def logic_gcd_game():
                 print(f"Your answer : {answer}!")
                 print("Correct !".format())
                 break
+
             else:
                 maths_answer != answer
                 print(f"'{answer}' is wrong answer ;(. Correct answer was '{maths_answer}'.Let\'s try again, {user_name.capitalize()} !")
                 quit()
+
     print(f"Congratulations, {user_name.capitalize()}!")
-logic_gcd_game()
+
