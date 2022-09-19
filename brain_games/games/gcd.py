@@ -15,7 +15,7 @@ def logic_gcd_game():
         print("Questions : {} {}".format(random_number1, random_number2))
         answer = int(input())
 
-        while random_number1 != random_number2:
+        while maths_answer!= answer:
             if random_number1 > random_number2:
                 random_number1 -= random_number2
 
@@ -30,4 +30,4 @@ def logic_gcd_game():
                 quit()
 
     print(f"Congratulations, {user_name.capitalize()}!")
-
+logic_gcd_game()
