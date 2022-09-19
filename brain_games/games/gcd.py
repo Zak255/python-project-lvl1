@@ -30,4 +30,3 @@ def logic_gcd_game():
                 quit()
 
     print(f"Congratulations, {user_name.capitalize()}!")
-logic_gcd_game()
