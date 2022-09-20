@@ -281,3 +281,46 @@ import random
 #
 #
 # is_calc_game()
+
+
+
+# 
+
+
+from random import randint
+import prompt
+
+def logic_progression():
+    curcle = 0
+    print("Welcome to the Brain Games!")
+    user_name = input("May I have your name? ")
+    print(f"Hello, {user_name.capitalize()}!")
+    print('What number is missing in the progression?')
+    random_list = []
+
+    for i in range(0, 3):
+        numbers1 = randint(1, 10)
+        numbers2 = randint(80, 100)
+        step = randint(2, 30)
+        random_list = list(range(numbers1,numbers2,step))
+        index = randint(1,len(random_list) - 1)
+        correct_answer = random_list[index]
+        random_list[index] = '..'
+        new_lists = (' '.join(map(str,random_list)))
+        print('Questions: {}'.format(new_lists))
+        answer = int(input())
+
+        if answer == correct_answer:
+            print('Your answer: {}'.format(answer))
+            print('Correct!')
+            curcle += 1
+        
+        else:
+            answer != correct_answer
+            print(f"'{answer}' is wrong answer ;(.Correct answer was '{correct_answer}'.Let's try again, {user_name}!")
+            break
+    if curcle == 3:
+        print(f"Congratulations, {user_name.capitalize()}!")
+
+logic_progression()
+        
