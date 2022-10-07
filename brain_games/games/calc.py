@@ -20,29 +20,27 @@ def is_calc_game():
         correct_answer = False
 
         if  value_answer == '+':
-            correct_answer = random_number1 == random_number2
+            correct_answer = random_number1 + random_number2
             print(f"Your answer : {answer}!")
             print("Correct !".format(correct_answer))
             curcle += 1
 
-#         elif value_answer == '-' :
-#             correct_answer = random_number1 - random_number2
-#             print(f"Your answer : {answer}!")
-#             print("Correct !". format(correct_answer))
-#             curcle += 1
+        elif value_answer == '-' :
+            correct_answer = random_number1 - random_number2
+            print(f"Your answer : {answer}!")
+            print("Correct !". format(correct_answer))
+            curcle += 1
 
-#         elif value_answer == '*':
-#             correct_answer = random_number1 * random_number2
-#             print(f"Your answer : {answer}!")
-#             print("Correct !". format(correct_answer))
-#             curcle += 1
+        elif value_answer == '*':
+            correct_answer = random_number1 * random_number2
+            print(f"Your answer : {answer}!")
+            print("Correct !". format(correct_answer))
+            curcle += 1
 
-#         else:
-#             right_answer = f"{random_number1} {value_answer} {random_number2}"
-#             print(f"'{answer}' is wrong answer ;(. Correct answer was '{eval(right_answer)}'.Let\'s try again, {user_name.capitalize()} !")
-#             break
+        else:
+            right_answer = f"{random_number1} {value_answer} {random_number2}"
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{eval(right_answer)}'.Let\'s try again, {user_name.capitalize()} !")
+            break
 
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
-
-is_calc_game()

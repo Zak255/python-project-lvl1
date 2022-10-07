@@ -6,8 +6,8 @@
 # print(f"Hello, {user_name}!")
 # print('Answer "yes" if the number is even, otherwise answer "no".')
 # count = 0
-# num = random.randint(1, 100)
-# for num in range(count):
+# random_number1 = random.randint(1, 100)
+# for random_number1 in range(count):
 #     question, correct_answer % 2 == 0
 #     print("Question: {}".format(question))
 #     user_answer = input("Your answer : ")
@@ -63,11 +63,11 @@
 # print('Answer "yes" if the number is even, otherwise answer "no".')
 
 # count = 3
-# num = random.randint(1, 100)
+# random_number1 = random.randint(1, 100)
 # def game():
-#     if num in range(count):
-#         num % 2 == 0
-#         # print("Question:  {}".format(num))
+#     if random_number1 in range(count):
+#         random_number1 % 2 == 0
+#         # print("Question:  {}".format(random_number1))
 #         # user_answer = input("Your answer : ")
 
 # def get_type_of_sentence(sentence):
@@ -122,7 +122,7 @@
 
 #  def sum(numbers):
 #      result = 0
-#      for num in numbers:
+#      for random_number1 in numbers:
 #          result += 3
 #      return result
 
@@ -191,7 +191,7 @@
 
 
 # from random import randint
-import random
+# import random
 
 
 # def is_calc_game():
@@ -236,17 +236,18 @@ import random
 # is_calc_game()
 
 #
-# from random import randint
-# import random
-#
-#
+# from math import sqrt
+# from random import randint, random
+
+
+
 # def is_calc_game():
 #     curcle = 0
 #     print("Welcome to the Brain Games!")
 #     user_name = input("May I have your name? ")
 #     print(f"Hello, {user_name.capitalize()}!")
 #     print('What is the result of the expression?')
-#
+
 #     for i in range(0, 3):
 #         random_number1 = randint(0, 20)
 #         random_number2 = randint(1, 18)
@@ -255,72 +256,102 @@ import random
 #         operation = f"{random_number1} {value_answer} {random_number2}"
 #         print("Questions : {}".format(operation))
 #         answer = int(input())
-#
+
 #         if value_answer == '+' and answer == eval(operation):
 #             print(f"Your answer : {answer}!")
 #             print("Correct !".format())
 #             curcle += 1
-#
+
 #         elif value_answer == '-' and answer == eval(operation):
 #             print(f"Your answer : {answer}!")
 #             print("Correct !".format())
 #             curcle += 1
-#
+
 #         elif value_answer == '*' and answer == eval(operation):
 #             print(f"Your answer : {answer}!")
 #             print("Correct !".format())
 #             curcle += 1
-#
+
 #         else:
 #             print(
 #                 f"'{answer}' is wrong answer ;(. Correct answer was '{eval(operation)}'.Let\'s try again, {user_name.capitalize()} !")
 #             break
-#
+
 #     if curcle == 3:
 #         print(f"Congratulations, {user_name.capitalize()}!")
-#
-#
+
+
 # is_calc_game()
 
+# from random import randint
+# from math import sqrt
 
 
-# 
+# def logic_prime():
+#     curcle = 0
+#     print("Welcome to the Brain Games!")
+#     user_name = input("May I have your name? ")
+#     print(f"Hello, {user_name.capitalize()}!")
+#     print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    
+#     for i in range(0, 3):
+
+#         random_number = randint(1, 10)
+#         print("Questions : {}".format(random_number)) 
+#         answer = input()
+#         i = 2
+#         solve_list = []
+#         for i in range(1, random_number + 1):
+#             if random_number % i == 0:    
+#                 solve_list.append(i)
+#         if len(solve_list) == 2 :
+#             print('Your answer : {}'.format(answer.capitalize()))
+#             print('Correct !')
+#             curcle += 1
+#         elif len(solve_list) == 0:
+#             print('Your answer : {}'.format(answer.capitalize()))
+#             print('Correct !')  
+#             curcle += 1
+#         else:
+#             right_answer = "Yes" if solve_list % random_number == 2 else "No"
+#             print(f"'{answer.capitalize()}' is wrong answer :(. Correct answer was '{right_answer.capitalize()}'.Let\'s try again, {user_name.capitalize()}!" )  
+#             break
+         
+#     if curcle == 3:
+#         print('Congratulations {}!'.format(user_name.capitalize()))
+# logic_prime()
 
 
 from random import randint
-import prompt
 
-def logic_progression():
-    curcle = 0
+
+def logic_prime():
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
-    print('What number is missing in the progression?')
-    random_list = []
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
-    for i in range(0, 3):
-        numbers1 = randint(1, 10)
-        numbers2 = randint(80, 100)
-        step = randint(2, 30)
-        random_list = list(range(numbers1,numbers2,step))
-        index = randint(1,len(random_list) - 1)
-        correct_answer = random_list[index]
-        random_list[index] = '..'
-        new_lists = (' '.join(map(str,random_list)))
-        print('Questions: {}'.format(new_lists))
-        answer = int(input())
+    for a in range(0, 3):
 
-        if answer == correct_answer:
-            print('Your answer: {}'.format(answer))
-            print('Correct!')
-            curcle += 1
+        random_number = randint(2, 10)
+        print("Questions : {}".format(random_number)) 
+        answer = input('Your answer: ')
+        k = 0 
+
+        for a in range(2, random_number // 2 + 1):
+            if random_number % a == 0:
+                k += 1
         
+        if k <= 0 and answer == "Yes" and answer != "No":
+            print('Correct Y!')
+
+        elif k >= 0 and answer == "No" and answer != "Yes":
+            print('Correct N!')
+            
         else:
-            answer != correct_answer
-            print(f"'{answer}' is wrong answer ;(.Correct answer was '{correct_answer}'.Let's try again, {user_name}!")
-            break
-    if curcle == 3:
-        print(f"Congratulations, {user_name.capitalize()}!")
+            right_answer = "Yes" if k <= 0 and answer == "No" else "No"
+            print(f"'{answer.capitalize()}' is wrong answer :(. Correct answer was '{right_answer.capitalize()}'. Let\'s try again, {user_name.capitalize()}!" )
+    else:
+        print('Congratulation {}'.format(user_name.capitalize()))    
 
-logic_progression()
-        
+logic_prime()
