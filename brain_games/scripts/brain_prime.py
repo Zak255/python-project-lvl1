@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from brain_games.games import progression
+from brain_games.games import prime
 
 def main():
-    progression.logic_progression()
+    prime.logic_prime()
 
 if __name__ == "__main__":
     main()
