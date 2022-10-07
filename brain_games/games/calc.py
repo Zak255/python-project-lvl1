@@ -25,7 +25,7 @@ def is_calc_game():
             print("Correct !".format(correct_answer))
             curcle += 1
 
-        elif value_answer == '-' :
+        elif value_answer == '-':
             correct_answer = random_number1 - random_number2
             print(f"Your answer : {answer}!")
             print("Correct !". format(correct_answer))
