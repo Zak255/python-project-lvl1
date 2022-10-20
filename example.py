@@ -283,75 +283,38 @@
 
 # is_calc_game()
 
-# from random import randint
-# from math import sqrt
-
-
-# def logic_prime():
-#     curcle = 0
-#     print("Welcome to the Brain Games!")
-#     user_name = input("May I have your name? ")
-#     print(f"Hello, {user_name.capitalize()}!")
-#     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    
-#     for i in range(0, 3):
-
-#         random_number = randint(1, 10)
-#         print("Questions : {}".format(random_number)) 
-#         answer = input()
-#         i = 2
-#         solve_list = []
-#         for i in range(1, random_number + 1):
-#             if random_number % i == 0:    
-#                 solve_list.append(i)
-#         if len(solve_list) == 2 :
-#             print('Your answer : {}'.format(answer.capitalize()))
-#             print('Correct !')
-#             curcle += 1
-#         elif len(solve_list) == 0:
-#             print('Your answer : {}'.format(answer.capitalize()))
-#             print('Correct !')  
-#             curcle += 1
-#         else:
-#             right_answer = "Yes" if solve_list % random_number == 2 else "No"
-#             print(f"'{answer.capitalize()}' is wrong answer :(. Correct answer was '{right_answer.capitalize()}'.Let\'s try again, {user_name.capitalize()}!" )  
-#             break
-         
-#     if curcle == 3:
-#         print('Congratulations {}!'.format(user_name.capitalize()))
-# logic_prime()
-
-
 from random import randint
+from math import sqrt
 
 
-def logic_prime():
+def welcome_is_prime():
+    
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    number = randint(2, 10)
+    print("Questions: {}".format(number))
+    answer = input("Your answer: ")
 
-    for a in range(0, 3):
+def logic_is_prime(number):
+    curcle = 0
+    welcome_is_prime()
+    for i in range(0, 3):
+        if number < 2:
+            for k in range(2, number // 2 + 1):
+                if number % k == 0:
+                    return "No"
+                else:
+                    return "yes"
+            else:
+                rigth_answer =  "No" if logic_is_prime(number) else "Yes"
+                print(f"'{welcome_is_prime}' is wrong answer :(. Correct answer was '{rigth_answer}'.Let\'s try again, {welcome_is_prime()}!" ) 
+    if curcle == 3:
+        print("Congratulations {}!".format(welcome_is_prime(user_name)))  # type: ignore
+logic_is_prime('No' 'Yes')
 
-        random_number = randint(2, 10)
-        print("Questions : {}".format(random_number)) 
-        answer = input('Your answer: ')
-        k = 0 
 
-        for a in range(2, random_number // 2 + 1):
-            if random_number % a == 0:
-                k += 1
-        
-        if k <= 0 and answer == "Yes" and answer != "No":
-            print('Correct Y!')
 
-        elif k >= 0 and answer == "No" and answer != "Yes":
-            print('Correct N!')
-            
-        else:
-            right_answer = "Yes" if k <= 0 and answer == "No" else "No"
-            print(f"'{answer.capitalize()}' is wrong answer :(. Correct answer was '{right_answer.capitalize()}'. Let\'s try again, {user_name.capitalize()}!" )
-    else:
-        print('Congratulation {}'.format(user_name.capitalize()))    
 
-logic_prime()
+

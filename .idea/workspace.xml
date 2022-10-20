@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dd9a39-34b7-4e6a-b9fc-657d9e36b2f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/brain_games/games/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;71ffdb&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zak/python-project-lvl1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "71ffdb",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zak/python-project-lvl1",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.prime">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project-lvl1" />
@@ -130,17 +133,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.example" />
+      <item itemvalue="Python.gcd" />
       <item itemvalue="Python.prime" />
       <item itemvalue="Python.progression" />
-      <item itemvalue="Python.gcd" />
-      <item itemvalue="Python.example" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.prime" />
         <item itemvalue="Python.progression" />
-        <item itemvalue="Python.example" />
         <item itemvalue="Python.gcd" />
+        <item itemvalue="Python.example" />
       </list>
     </recent_temporary>
   </component>
@@ -170,4 +173,3 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
-
