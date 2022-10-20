@@ -8,7 +8,6 @@ def welcome_prime():
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-welcome_prime()
 
 def is_prime(number):
     print("Questions: {}".format(number))
@@ -19,7 +18,6 @@ def is_prime(number):
         if number % i == 0:
             return "no"
     return "yes"
-is_prime(2)
 
 def make_question():
     """Make game question and answer."""
@@ -28,4 +26,3 @@ def make_question():
     number = randint(min_number, max_number)
     question = str(number)
     return question, is_prime(number)
-make_question()
