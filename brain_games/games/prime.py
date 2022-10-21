@@ -1,5 +1,4 @@
 # !/usr/bin/env python
-import numbers
 from random import randint
 
 
