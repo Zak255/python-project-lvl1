@@ -7,21 +7,20 @@ def welcome_prime():
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
-def is_prime(number):
+    number = randint(2, 20)
     print("Questions: {}".format(number))
     answer = input("Your answer: ")
+
+def is_prime(number):
     if number == 1:
-        return "no"
+        return False
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
-            return "no"
-    return "yes"
+            return False
+    return True
 
 def make_question():
     """Make game question and answer."""
-    min_number = 1
-    max_number = 21
-    number = randint(min_number, max_number)
+    number = randint(2, 20)
     question = str(number)
     return question, is_prime(number)

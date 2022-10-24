@@ -283,38 +283,41 @@
 
 # is_calc_game()
 
-from random import randint
-from math import sqrt
+# from random import randint
+# from math import sqrt
 
 
-def welcome_is_prime():
+# def welcome_is_prime():
     
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
-    print(f"Hello, {user_name.capitalize()}!")
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    number = randint(2, 10)
-    print("Questions: {}".format(number))
-    answer = input("Your answer: ")
+#     print("Welcome to the Brain Games!")
+#     user_name = input("May I have your name? ")
+#     print(f"Hello, {user_name.capitalize()}!")
+#     print('Answer "yes" if given number is prime. Otherwise answer "no".')
+#     number = randint(2, 10)
+#     print("Questions: {}".format(number))
+#     answer = input("Your answer: ")
 
-def logic_is_prime(number):
-    curcle = 0
-    welcome_is_prime()
-    for i in range(0, 3):
-        if number < 2:
-            for k in range(2, number // 2 + 1):
-                if number % k == 0:
-                    return "No"
-                else:
-                    return "yes"
-            else:
-                rigth_answer =  "No" if logic_is_prime(number) else "Yes"
-                print(f"'{welcome_is_prime}' is wrong answer :(. Correct answer was '{rigth_answer}'.Let\'s try again, {welcome_is_prime()}!" ) 
-    if curcle == 3:
-        print("Congratulations {}!".format(welcome_is_prime(user_name)))  # type: ignore
-logic_is_prime('No' 'Yes')
-
-
+# def logic_is_prime(number):
+#     curcle = 0
+#     welcome_is_prime()
+#     for i in range(0, 3):
+#         if number < 2:
+#             for k in range(2, number // 2 + 1):
+#                 if number % k == 0:
+#                     return "No"
+#                 else:
+#                     return "yes"
+#             else:
+#                 rigth_answer =  "No" if logic_is_prime(number) else "Yes"
+#                 print(f"'{welcome_is_prime}' is wrong answer :(. Correct answer was '{rigth_answer}'.Let\'s try again, {welcome_is_prime()}!" ) 
+#     if curcle == 3:
+#         print("Congratulations {}!".format(welcome_is_prime(user_name)))  # type: ignore
+# logic_is_prime('No' 'Yes')
 
 
 
+
+def truncate(text, lenght):
+    result = f"{text[0:lenght]}..."
+    return result
+truncate('hexlet', 3)
