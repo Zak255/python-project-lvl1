@@ -3,7 +3,7 @@ from brain_games.games import prime
 
 def main():
     prime.welcome_prime()
-def primes():
+def primes(number):
     prime.is_prime()
 def questions():
     prime.make_question()
