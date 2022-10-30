@@ -4,11 +4,12 @@ from random import randint
 
 def welcome_prime():
     global user_name
-    print("May I have your name?")
+    print("My I have your name?")
     user_name = input()
     print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(2, 20)
+
 
 def is_prime(number):
     if number == 1:
@@ -30,7 +31,7 @@ def make_question():
         correct_answer = 'no'
     return question, correct_answer
 
-def users_name():
+def logic_user():
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
