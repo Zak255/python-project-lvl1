@@ -84,21 +84,21 @@
 # print(get_type_of_sentence('Hodor?'))
 
 # def print_numbers(numbers):
-#     i = 4
-#     while numbers < i:
-#         print(i)
-#         i -= 1
+#     line = 4
+#     while numbers < line:
+#         print(line)
+#         line -= 1
 #     print('finished')
 # print_numbers(0)
 
 
 
 # def join_numbers_from_range(start, finish):
-#     i = start
+#     line = start
 #     result = ''
-#     while i <= finish:
-#         print(result, str(i))
-#         i += 1
+#     while line <= finish:
+#         print(result, str(line))
+#         line += 1
 
 
 # join_numbers_from_range(1, 5)
@@ -147,8 +147,8 @@
 # def is_instans():
 #     number1 = int(input())
 #     curcl = 3
-#     i = randint(0, 30)
-#     if i < number1:
+#     line = randint(0, 30)
+#     if line < number1:
 #         print('Вы не угадали !')
 #         # curcl += 1
 #     else:
@@ -201,7 +201,7 @@
 #     print(f"Hello, {user_name.capitalize()}!")
 #     print('What is the result of the expression?')
     
-#     for i in range(0, 3):
+#     for line in range(0, 3):
         
 #         random_number = randint(0, 20)
 #         random_number1 = randint(10, 30)
@@ -235,7 +235,7 @@
 
 # is_calc_game()
 
-#
+
 # from math import sqrt
 # from random import randint, random
 
@@ -248,7 +248,7 @@
 #     print(f"Hello, {user_name.capitalize()}!")
 #     print('What is the result of the expression?')
 
-#     for i in range(0, 3):
+#     for line in range(0, 3):
 #         random_number1 = randint(0, 20)
 #         random_number2 = randint(1, 18)
 #         value = ['+', '-', '*']
@@ -300,7 +300,7 @@
 # def logic_is_prime(number):
 #     curcle = 0
 #     welcome_is_prime()
-#     for i in range(0, 3):
+#     for line in range(0, 3):
 #         if number < 2:
 #             for k in range(2, number // 2 + 1):
 #                 if number % k == 0:
@@ -317,7 +317,24 @@
 
 
 
-def truncate(text, lenght):
-    result = f"{text[0:lenght]}..."
-    return result
-truncate('hexlet', 3)
+
+    
+
+
+
+
+
+# def sentense_questions(sentence):
+#     last = sentence[-1]
+#     if last == "?":
+#         answer  = "Questions"
+#     elif last == "!":
+#         answer = "Exclametion"
+#     else:
+#         answer = "Normal"
+#     return "Sentense is " + answer
+# print(sentense_questions("Hexlet?"))
+
+# line = (1, 2, 3, 4)
+# m = line[3:] + line[:3]
+# print(list(m))

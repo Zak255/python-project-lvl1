@@ -3,24 +3,46 @@ from random import randint
 
 
 def welcome_prime():
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
+    global user_name
+    print("May I have your name?")
+    user_name = input()
     print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(2, 20)
-    print("Questions: {}".format(number))
-    answer = input("Your answer: ")
 
 def is_prime(number):
     if number == 1:
-        return False
+        return False   
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
             return False
-    return True
+    return True 
 
 def make_question():
     """Make game question and answer."""
     number = randint(2, 20)
     question = str(number)
-    return question, is_prime(number)
+    correct_answer = ''
+
+    if is_prime(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return question, correct_answer
+
+def users_name():
+    curcle = 0
+    for _ in range(0, 3):
+        question, correct_answer = make_question()
+        print(f"Question: {question}")
+        answer = input("Your answer: ")
+        if answer == correct_answer:
+            print("Correct !")
+            curcle +=1
+        elif answer != correct_answer:
+            print(
+f''''{answer.capitalize()}' is wrong answer :(.
+Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.capitalize()}!" ''')
+            break
+    if curcle == 3:
+        print(f'Congratulations: {user_name.capitalize()}!')
