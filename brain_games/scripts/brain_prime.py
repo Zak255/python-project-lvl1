@@ -7,5 +7,6 @@ def main():
     prime.make_question()
     prime.logic_user()
 
+
 if __name__ == "__main__":
     main()
