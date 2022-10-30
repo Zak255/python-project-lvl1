@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 from brain_games.games import prime
+from brain_games.games.prime import is_prime
+from brain_games.games.prime import make_question
+from brain_games.games.prime import logic_user
 
 def main():
     prime.welcome_prime()
-def primes(number):
-    prime.is_prime()
+def primes():
+    is_prime.is_prime(number)
 def questions():
-    prime.make_question()
+    make_question.make_question()
 def logics():
-    prime.logic_user()
+    logic_user.logic_user()
 
 
 if __name__ == "__main__":
