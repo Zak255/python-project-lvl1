@@ -3,13 +3,13 @@ from brain_games.games import prime
 
 
 def main():
-    welcome_prime.welcome_prime()
+    prime.welcome_prime()
 def primes():
-    is_prime.is_prime(number)
+    prime.is_prime(number)
 def questions():
-    make_question.make_question()
+    prime.make_question()
 def logics():
-    logic_user.logic_user()
+    prime.logic_user()
 
 
 if __name__ == "__main__":
