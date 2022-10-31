@@ -5,7 +5,7 @@ from brain_games.games.prime import make_question
 from brain_games.games.prime import logic_user
 
 def main():
-    prime.welcome_prime()
+    welcome_prime.welcome_prime()
 def primes():
     is_prime.is_prime(number)
 def questions():
