@@ -1,12 +1,9 @@
 #!/usr/bin/env python
-from brain_games.games.prime import *
+from brain_games.games import prime
 
 
 def main():
-    welcome_prime()
-    is_prime(number)
-    make_question()
-    logic_user()
+    welcome_prime(prime)
 
 
 if __name__ == "__main__":
