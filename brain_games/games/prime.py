@@ -12,11 +12,11 @@ def welcome_prime():
 
 def is_prime(number):
     if number == 1:
-        return False   
+        return False  
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
             return False
-    return True 
+    return True
 
 def make_question():
     """Make game question and answer."""
@@ -46,3 +46,9 @@ Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.
             break
     if curcle == 3:
         print(f'Congratulations: {user_name.capitalize()}!')
+
+if __name__ == '__main__':
+    welcome_prime()
+    is_prime(2)
+    make_question()
+    logic_user()
