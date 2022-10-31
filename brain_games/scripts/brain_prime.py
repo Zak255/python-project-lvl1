@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 from brain_games.games import prime
-from brain_games.games.prime import is_prime
-from brain_games.games.prime import make_question
-from brain_games.games.prime import logic_user
+from brain_games.games.prime import *
 
 def main():
     prime.welcome_prime()
@@ -16,9 +14,9 @@ def logics():
 
 if __name__ == "__main__":
     main()
-if __name__ == "__primes__":
+if __name__ == "__main__":
     primes()
-if __name__ == "__questions__":
+if __name__ == "__main__":
     questions()
-if __name__ == "__logics__":
+if __name__ == "__main__":
     logics()
