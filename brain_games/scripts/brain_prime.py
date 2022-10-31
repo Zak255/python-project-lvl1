@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from brain_games.games import prime
-import is_prime
-import make_question
-import logic_user
+from brain_games.games.prime import is_prime
+from brain_games.games.prime import make_question
+from brain_games.games.prime import logic_user
 
 def main():
     prime.welcome_prime()
