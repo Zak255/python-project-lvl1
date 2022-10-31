@@ -8,7 +8,7 @@ from brain_games.games.prime import logic_user
 function_games = welcome_prime(),is_prime(2),make_question(),logic_user()
 
 def main():
-    prime(function_games)
+    function_games(prime)
 
 
 if __name__ == "__main__":
