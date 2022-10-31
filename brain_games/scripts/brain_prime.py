@@ -4,11 +4,11 @@ from brain_games.games import prime
 
 def main():
     prime.welcome_prime()
-def primes():
+def main():
     prime.is_prime(number)
-def questions():
+def main():
     prime.make_question()
-def logics():
+def main():
     prime.logic_user()
 
 
