@@ -6,8 +6,10 @@ from brain_games.games.prime import make_question
 from brain_games.games.prime import logic_user
 
 function_games = welcome_prime(),is_prime(number),make_question(),logic_user()
+
 def main():
     prime(function_games)
+    number(2)
     
 
 
