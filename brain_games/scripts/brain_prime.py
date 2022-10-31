@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-from brain_games.games import prime
+from brain_games.games import prime, *
+
 
 def main():
-    prime.welcome_prime()
+    prime.welcome_prime(*)
 
 
 if __name__ == "__main__":
