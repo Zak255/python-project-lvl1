@@ -334,10 +334,8 @@ from random import randint
 
 
 def welcome_prime():
-    global user_name
-    print("My I have your name?")
-    user_name = input()
-    print(f"Hello, {user_name.capitalize()}!")
+    # user_name = input("My I have your name?  ")
+    # print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(2, 20)
 welcome_prime()
@@ -366,9 +364,13 @@ make_question()
 
 def logic_user():
     user_name = ''
+    user_name = input("My I have your name?  ")
+    print(f"Hello, {user_name.capitalize()}!")
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
+        
+        
         print(f"Question: {question}")
         answer = input("Your answer: ")
         if answer == correct_answer:
