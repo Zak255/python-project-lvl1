@@ -2,10 +2,17 @@
 from brain_games.games import prime
 from brain_games.games.prime import *
 
-function_games = welcome_prime(),is_prime(2),make_question(),logic_user()
 
 def main():
-    prime(function_games)
+    prime(welcome_prime)
+def welcome_prime():
+    prime(main)
+def is_prime(2):
+    welcome_prime()
+def make_question():
+    is_prime(2)
+def logic_user():
+    make_question()
 
 if __name__ == "__main__":
     main()
