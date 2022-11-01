@@ -31,6 +31,7 @@ def make_question():
     return question, correct_answer
 
 def logic_user():
+    global user_name
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
