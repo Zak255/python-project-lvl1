@@ -6,7 +6,8 @@ def main():
     prime.welcome_prime()
 
 if __name__ == "__main__":
+    main()
     is_prime(2)
     make_question()
     logic_user()
-    main()
+    
