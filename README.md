@@ -2,10 +2,6 @@
 [![Actions Status](https://github.com/Zak255/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zak255/python-project-lvl1/actions)
 
 
-https://media.giphy.com/media/jdPMeyv9rn0hZHh8n9/giphy.gif
-
-
-
 https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
 🎮 Игра: "Проверка на чётность"
