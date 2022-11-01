@@ -330,12 +330,10 @@
 # print(list(m))
 
 # !/usr/bin/env python
-from random import randint 
+from random import randint
 
 
 def welcome_prime():
-    # user_name = input("My I have your name?  ")
-    # print(f"Hello, {user_name.capitalize()}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(2, 20)
 welcome_prime()
@@ -369,8 +367,6 @@ def logic_user():
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
-        
-        
         print(f"Question: {question}")
         answer = input("Your answer: ")
         if answer == correct_answer:
@@ -384,3 +380,8 @@ Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.
     if curcle == 3:
         print(f'Congratulations: {user_name.capitalize()}!')
 logic_user()
+if __name__ == '__main__':
+    welcome_prime()
+    is_prime(2)
+    make_question()
+    logic_user()
