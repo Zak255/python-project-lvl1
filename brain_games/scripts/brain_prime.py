@@ -4,7 +4,7 @@ from brain_games.games.prime import *
 
 
 def main():
-    prime(welcome_prime)
+    prime()
 def welcome_prime():
     prime(main)
 def is_prime():
