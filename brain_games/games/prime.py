@@ -47,8 +47,3 @@ Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.
     if curcle == 3:
         print(f'Congratulations: {user_name.capitalize()}!')
 
-if __name__ == '__main__':
-    welcome_prime()
-    is_prime(2)
-    make_question()
-    logic_user()
