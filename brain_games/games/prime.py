@@ -1,4 +1,4 @@
-# !/usr/bin/env python
+# !/usr/bin/env python3
 from random import randint
 
 
@@ -19,7 +19,6 @@ def make_question():
     number = randint(2, 20)
     question = str(number)
     correct_answer = ''
-
     if is_prime(number):
         correct_answer = 'yes'
     else:
@@ -45,4 +44,3 @@ Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.
             break
     if curcle == 3:
         print(f'Congratulations: {user_name.capitalize()}!')
-
