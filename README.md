@@ -1,6 +1,12 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Zak255/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zak255/python-project-lvl1/actions)
 
+
+<iframe src="https://giphy.com/embed/jdPMeyv9rn0hZHh8n9" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/coding-programmer-ngoding-jdPMeyv9rn0hZHh8n9">via GIPHY</a></p>
+
+
+
+
 https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
 🎮 Игра: "Проверка на чётность"
