@@ -38,9 +38,7 @@ def logic_user():
             print("Correct !")
             curcle +=1
         elif answer != correct_answer:
-            print(
-f''''{answer.capitalize()}' is wrong answer :(.
-Correct answer was '{correct_answer.capitalize()}'.Let\'s try again, {user_name.capitalize()}!" ''')
+            print(f"'{answer.capitalize()}' is wrong answer :(.\nCorrect answer was '{correct_answer.capitalize()}'.\nLet\'s try again, {user_name.capitalize()}!")
             break
     if curcle == 3:
         print(f'Congratulations: {user_name.capitalize()}!')

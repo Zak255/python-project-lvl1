@@ -30,4 +30,3 @@ def logic_gcd_game():
                 print(f"'{answer}' is wrong answer ;(. Correct answer was '{maths_answer}'.Let\'s try again, {user_name.capitalize()} !")
                 quit()
         print(f"Congratulations, {user_name.capitalize()}!")
-logic_gcd_game()
