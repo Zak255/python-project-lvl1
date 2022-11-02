@@ -1,3 +1,4 @@
+# !/usr/bin/env python3
 from random import randint
 from math import gcd
 
@@ -28,5 +29,5 @@ def logic_gcd_game():
                 maths_answer != answer
                 print(f"'{answer}' is wrong answer ;(. Correct answer was '{maths_answer}'.Let\'s try again, {user_name.capitalize()} !")
                 quit()
-
-    print(f"Congratulations, {user_name.capitalize()}!")
+        print(f"Congratulations, {user_name.capitalize()}!")
+logic_gcd_game()

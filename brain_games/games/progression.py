@@ -34,4 +34,3 @@ def logic_progression():
 
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
-logic_progression()
