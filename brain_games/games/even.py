@@ -12,17 +12,17 @@ def is_even_game():
     for i in range(0, 3):
 
         random_number = randint(0, 101)
-        print(f"'Question:  {random_number}'")
+        print(f"Question: {random_number}")
         answer = input()
 
         if random_number % 2 == 0 and answer.capitalize() == 'Yes':
             print(f"Your answer: {answer.capitalize()}!")
-            print("Correct !". format(answer.capitalize()))
+            print("Correct !".format(answer.capitalize()))
             curcle += 1
 
         elif random_number % 2 != 0 and answer.capitalize() == 'No':
             print(f"Your answer: {answer.capitalize()}!")
-            print("Correct !". format(answer.capitalize()))
+            print("Correct !".format(answer.capitalize()))
             curcle += 1
 
         else:
@@ -31,5 +31,3 @@ def is_even_game():
             break
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
-
-is_even_game()

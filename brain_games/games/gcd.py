@@ -13,7 +13,7 @@ def logic_gcd_game():
         random_number1 = randint(1, 100)
         random_number2 = randint(1, 100)
         maths_answer = gcd(random_number1, random_number2)
-        print(f"'Question: {random_number1} {random_number2}'")
+        print(f"Question: {random_number1} {random_number2}")
         answer = int(input())
 
         while maths_answer != answer:
@@ -22,7 +22,7 @@ def logic_gcd_game():
 
             elif maths_answer == answer:
                 print(f"Your answer: {answer}!")
-                print("Correct !".format())
+                print("Correct!".format())
                 break
 
             else:

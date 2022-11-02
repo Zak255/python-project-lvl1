@@ -16,26 +16,26 @@ def is_calc_game():
         random_number2 = randint(1, 18)
         value = ['+', '-', '*']
         value_answer = random.choice(value)
-        print(f"'Question: {random_number1}{value_answer}{random_number2}'")
+        print(f"Question: {random_number1} {value_answer} {random_number2}")
         answer = int(input())
         correct_answer = False
 
         if  value_answer == '+':
             correct_answer = random_number1 + random_number2
             print(f"Your answer: {answer}!")
-            print("Correct !".format(correct_answer))
+            print("Correct!".format(correct_answer))
             curcle += 1
 
         elif value_answer == '-':
             correct_answer = random_number1 - random_number2
             print(f"Your answer: {answer}!")
-            print("Correct !". format(correct_answer))
+            print("Correct!".format(correct_answer))
             curcle += 1
 
         elif value_answer == '*':
             correct_answer = random_number1 * random_number2
             print(f"Your answer: {answer}!")
-            print("Correct !". format(correct_answer))
+            print("Correct!".format(correct_answer))
             curcle += 1
 
         else:
