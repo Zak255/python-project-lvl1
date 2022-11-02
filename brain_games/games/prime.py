@@ -32,11 +32,11 @@ def logic_user():
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
-        print(f"Question: {question}")
+        print(f"'Question: {question}'")
         answer = input("Your answer: ")
         if answer == correct_answer:
             print("Correct !")
-            curcle +=1
+            curcle += 1
         elif answer != correct_answer:
             print(f"'{answer.capitalize()}' is wrong answer :(.\nCorrect answer was '{correct_answer.capitalize()}'.\nLet\'s try again, {user_name.capitalize()}!")
             break

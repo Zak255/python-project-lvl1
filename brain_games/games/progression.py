@@ -19,7 +19,7 @@ def logic_progression():
         correct_answer = random_list[index]
         random_list[index] = '..'
         new_str = (' '.join(map(str, random_list)))
-        print(f"Question: {new_str}")
+        print(f"'Question: {new_str}'")
         answer = int(input())
 
         if answer == correct_answer:
