@@ -16,7 +16,7 @@ def is_calc_game():
         random_number2 = randint(1, 18)
         value = ['+', '-', '*']
         value_answer = random.choice(value)
-        print(f"Question : {random_number1}{value_answer}{random_number2}")
+        print(f"Question: {random_number1}{value_answer}{random_number2}")
         answer = int(input())
         correct_answer = False
 
