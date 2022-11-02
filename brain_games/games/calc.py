@@ -16,31 +16,31 @@ def is_calc_game():
         random_number2 = randint(1, 18)
         value = ['+', '-', '*']
         value_answer = random.choice(value)
-        print("Questions : {}".format(random_number1),(value_answer),(random_number2))
+        print("Question: {}".format(random_number1),(value_answer),(random_number2))
         answer = int(input())
         correct_answer = False
 
         if  value_answer == '+':
             correct_answer = random_number1 + random_number2
-            print(f"Your answer : {answer}!")
+            print(f"Your answer: {answer}!")
             print("Correct !".format(correct_answer))
             curcle += 1
 
         elif value_answer == '-':
             correct_answer = random_number1 - random_number2
-            print(f"Your answer : {answer}!")
+            print(f"Your answer: {answer}!")
             print("Correct !". format(correct_answer))
             curcle += 1
 
         elif value_answer == '*':
             correct_answer = random_number1 * random_number2
-            print(f"Your answer : {answer}!")
+            print(f"Your answer: {answer}!")
             print("Correct !". format(correct_answer))
             curcle += 1
 
         else:
             right_answer = f"{random_number1} {value_answer} {random_number2}"
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{eval(right_answer)}'.Let\'s try again, {user_name.capitalize()} !")
+            print(f"'{answer}' is wrong answer ;(.\nCorrect answer was '{eval(right_answer)}'.\nLet\'s try again, {user_name.capitalize()} !")
             break
 
     if curcle == 3:

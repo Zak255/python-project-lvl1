@@ -19,17 +19,17 @@ def logic_progression():
         correct_answer = random_list[index]
         random_list[index] = '..'
         new_str = (' '.join(map(str, random_list)))
-        print('Questions: {}'.format(new_str))
+        print('Question: {}'.format(new_str))
         answer = int(input())
 
         if answer == correct_answer:
-            print('Your answer : {}'.format(answer))
+            print('Your answer: {}'.format(answer))
             print('Correct!')
             curcle +=1
 
         else:
             correct_answer != answer
-            print(f"'{answer}' is wrong answer ;(.Correct answer was '{correct_answer}'.Let's try again, {user_name}!")
+            print(f"'{answer}' is wrong answer ;(.\nCorrect answer was '{correct_answer}'.\nLet's try again, {user_name}!")
             break
 
     if curcle == 3:
