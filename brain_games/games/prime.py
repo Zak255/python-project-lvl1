@@ -32,7 +32,7 @@ def logic_user():
     curcle = 0
     for _ in range(0, 3):
         question, correct_answer = make_question()
-        print(f"Question: {question}")
+        print(f"Question : {question}")
         answer = input("Your answer: ")
         if answer == correct_answer:
             print("Correct !")

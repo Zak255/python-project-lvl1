@@ -12,7 +12,7 @@ def is_even_game():
     for i in range(0, 3):
 
         random_number = randint(0, 101)
-        print(f"Question: {random_number}")
+        print(f"Question : {random_number}")
         answer = input()
 
         if random_number % 2 == 0 and answer.capitalize() == 'Yes':
