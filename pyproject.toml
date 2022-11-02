@@ -5,7 +5,6 @@ description = ""
 authors = ["Zak255 <ramzan666666@gmail.com>"]
 packages = [
   { include = "brain_games" }
-  
 ]
 
 [tool.poetry.dependencies]
