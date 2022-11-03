@@ -4,6 +4,7 @@ import random
 
 
 def is_calc_game():
+
     curcle = 0
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
