@@ -1,7 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Zak255/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zak255/python-project-lvl1/actions)
 
+
 https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
+
+
 
 
 🎮 Игра: "Проверка на чётность"
@@ -54,8 +57,12 @@ https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
     Correct!
     Congratulations, Tom!
     
+  
+  
     
 https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
+
+
 
 
 🎮 Игра: "Калькулятор"
@@ -111,8 +118,12 @@ https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
     Correct!
     Congratulations, Tom!
     
+  
+  
     
 https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+
+
 
 
 🎮 Игра "НОД"
@@ -169,7 +180,11 @@ https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
     Congratulations, Tom!
     
     
+    
+    
 https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
+
+
 
 
 🎮 Игра "Арифметическая прогрессия"
@@ -227,8 +242,12 @@ https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
     Correct!
     Congratulations, Tom!
     
+   
+   
     
 https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+
+
 
 
 🎮 Игра "НОД"
@@ -284,7 +303,11 @@ https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
     Congratulations, Tom!
 
 
+
+
 https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
+
+
 
 
 🎮 Игра "Простое ли число?"
