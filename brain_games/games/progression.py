@@ -14,7 +14,7 @@ def logic_progression():
         random_number1 = randint(1, 10)
         random_number2 = randint(70, 100)
         step = randint(5, 10)
-        random_list = list(range(random_number1,random_number2,step))
+        random_list = list(range(random_number1, random_number2, step))
         index = randint(1,len(random_list) -1)
         correct_answer = random_list[index]
         random_list[index] = '..'  # type: ignore
@@ -25,7 +25,7 @@ def logic_progression():
         if answer == correct_answer:
             print('Your answer: {}'.format(answer))
             print('Correct!')
-            curcle +=1
+            curcle += 1
 
         else:
             right_answer = correct_answer != answer
