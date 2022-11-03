@@ -4,7 +4,6 @@ from math import gcd
 
 
 def logic_gcd_game():
-
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name.capitalize()}!")
