@@ -28,5 +28,6 @@ def is_even_game():
             right_answer = 'Yes' if random_number % 2 == 0 else 'No'
             print(f"'{answer.capitalize()}' is wrong answer :(.\nCorrect answer was '{right_answer.capitalize()}'.\nLet\'s try again, {user_name.capitalize()}!" )
             break
+
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
