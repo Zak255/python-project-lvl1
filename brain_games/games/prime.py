@@ -49,4 +49,4 @@ def logic_user():
             break
         
     if curcle == 3:
-        print(f'Congratulations: {user_name.capitalize()}!')
+        print(f'Congratulations, {user_name.capitalize()}!')
