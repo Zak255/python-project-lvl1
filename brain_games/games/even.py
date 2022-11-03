@@ -10,7 +10,6 @@ def is_even_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for i in range(0, 3):
-
         random_number = randint(0, 101)
         print('Question: {}'.format(random_number))
         answer = input()

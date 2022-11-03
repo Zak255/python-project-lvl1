@@ -17,9 +17,9 @@ def logic_progression():
         random_list = list(range(random_number1,random_number2,step))
         index = randint(1,len(random_list) -1)
         correct_answer = random_list[index]
-        random_list[index] = '..'
+        random_list[index] = '..'  # type: ignore
         new_str = (' '.join(map(str, random_list)))
-        print(f"Question: {new_str}")
+        print('Question: {}'.format(new_str))
         answer = int(input())
 
         if answer == correct_answer:
