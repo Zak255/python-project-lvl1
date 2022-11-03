@@ -4,7 +4,6 @@ import random
 
 
 def is_calc_game():
-
     curcle = 0
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
@@ -47,3 +46,4 @@ def is_calc_game():
 
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
+is_calc_game()
