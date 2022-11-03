@@ -3,10 +3,12 @@ from random import randint
 
 
 def welcome_prime():
+
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(2, 20)
 
 def is_prime(number):
+
     if number == 1:
         return False  
     for i in range(2, (number // 2 + 1)):
@@ -15,7 +17,7 @@ def is_prime(number):
     return True
 
 def make_question():
-    """Make game question and answer."""
+
     number = randint(2, 20)
     question = str(number)
     correct_answer = ''
@@ -26,6 +28,7 @@ def make_question():
     return question, correct_answer
 
 def logic_user():
+
     user_name = ''
     user_name = input("My I have your name?  ")
     print(f"Hello, {user_name.capitalize()}!")
