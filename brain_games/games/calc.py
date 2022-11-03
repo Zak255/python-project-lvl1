@@ -41,7 +41,8 @@ def is_calc_game():
         else:
             right_answer = f"{random_number1} {value_answer} {random_number2}"
             print(f"'{answer}' is wrong answer ;(.\nCorrect answer was '{eval(right_answer)}'.\nLet\'s try again, {user_name.capitalize()} !")
-            break
+        break
         
     if curcle == 3:
         print(f"Congratulations, {user_name.capitalize()}!")
+is_calc_game()
