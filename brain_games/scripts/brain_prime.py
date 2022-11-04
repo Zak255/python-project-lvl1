@@ -6,6 +6,7 @@ from brain_games.games.prime import logic_user
 
 
 def main():
+
     welcome_prime()
     is_prime(2)
     make_question()
