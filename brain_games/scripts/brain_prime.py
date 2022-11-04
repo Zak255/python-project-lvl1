@@ -3,7 +3,6 @@ from brain_games.games import prime
 from brain_games.games.prime import *
 
 
-
 def main():
     welcome_prime()
     is_prime(2)
