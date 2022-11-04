@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 from brain_games.games.prime import welcome_prime
 from brain_games.games.prime import is_prime
 from brain_games.games.prime import make_question
@@ -10,7 +10,6 @@ def main():
     is_prime(2)
     make_question()
     logic_user()
-
 
 if __name__ == "__main__":
     main()
