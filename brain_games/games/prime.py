@@ -1,6 +1,5 @@
-# !/usr/bin/env python3
+# !/usr/bin/env python
 from random import randint
-import prompt
 
 
 def welcome_prime():

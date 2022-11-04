@@ -10,6 +10,13 @@
       <change beforePath="$PROJECT_DIR$/brain_games/games/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/games/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/gcd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brain_games/games/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
