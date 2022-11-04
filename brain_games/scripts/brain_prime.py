@@ -4,6 +4,7 @@ from brain_games.games.prime import is_prime
 from brain_games.games.prime import make_question
 from brain_games.games.prime import logic_user
 
+
 def main():
     welcome_prime()
     is_prime(2)
