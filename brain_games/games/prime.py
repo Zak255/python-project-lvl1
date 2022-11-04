@@ -42,7 +42,7 @@ def logic_user():
 
         else:
             right_answer = answer != correct_answer
-            print(f"'{answer.capitalize()}' is wrong answer :(.\nCorrect answer was '{correct_answer.capitalize()}'.\nLet\'s try again, {user_name.capitalize()}!")
+            print(f"'{answer}' is wrong answer :(.\nCorrect answer was '{correct_answer}'.\nLet\'s try again, {user_name}!")
             break
 
     if curcle == 3:
