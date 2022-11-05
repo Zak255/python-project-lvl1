@@ -11,7 +11,6 @@ def is_calc_game():
     print('What is the result of the expression?')
 
     for i in range(0, 3):
-
         random_number1 = randint(0, 20)
         random_number2 = randint(1, 18)
         value = ['+', '-', '*']
