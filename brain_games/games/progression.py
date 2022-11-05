@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 from random import randint
-import prompt
+
 
 def logic_progression():
     print("Welcome to the Brain Games!")
