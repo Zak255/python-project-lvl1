@@ -15,7 +15,7 @@ def logic_progression():
         random_number2 = randint(70, 100)
         step = randint(5, 10)
         random_list = list(range(random_number1, random_number2, step))
-        index = randint(1,len(random_list) -1)
+        index = randint(1, len(random_list) -1)
         correct_answer = random_list[index]
         random_list[index] = '..'
         new_str = (' '.join(map(str, random_list)))
