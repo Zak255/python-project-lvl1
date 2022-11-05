@@ -8,7 +8,6 @@ def welcome_user():
     print('Hello, {}'.format(name))
     return name
 
-
 def get_answer(question):
     print(f"Question: {question}")
     answer = prompt.string("Your answer: ")
