@@ -3,6 +3,8 @@ from random import randint
 
 
 number = randint(2, 20)
+
+
 def welcome_prime():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
@@ -44,7 +46,8 @@ def logic_user():
 
         else:
             right_answer = answer != correct_answer
-            print(f"'{answer}' is wrong answer :(.\nCorrect answer was '{correct_answer}'.\nLet\'s try again, {user_name}!")
+            print(
+                f"'{answer}' is wrong answer :(.\nCorrect answer was '{correct_answer}'.\nLet\'s try again, {user_name}!")
             break
 
     if curcle == 3:

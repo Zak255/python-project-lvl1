@@ -20,7 +20,7 @@ def is_calc_game():
         answer = int(input())
         correct_answer = False
 
-        if  answer == eval(computer_question):
+        if answer == eval(computer_question):
             correct_answer = random_number1 + random_number2
             print(f"Your answer: {answer}")
             print("Correct!")
@@ -40,7 +40,8 @@ def is_calc_game():
 
         else:
             right_answer = f"{random_number1} {value_answer} {random_number2}"
-            print(f"'{answer}' is wrong answer ;(.\nCorrect answer was '{eval(right_answer)}'.\nLet\'s try again, {user_name}!")
+            print(
+                f"'{answer}' is wrong answer ;(.\nCorrect answer was '{eval(right_answer)}'.\nLet\'s try again, {user_name}!")
             break
 
     if curcle == 3:
