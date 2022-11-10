@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dd9a39-34b7-4e6a-b9fc-657d9e36b2f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/brain_games/games/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
