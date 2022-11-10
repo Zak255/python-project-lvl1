@@ -45,7 +45,6 @@ def logic_user():
             curcle += 1
 
         else:
-            answer != correct_answer
             print(
                 f"'{answer}' is wrong answer :(."
                 f"\nCorrect answer was '{correct_answer}'.\nLet\'s try again, {user_name}!")
