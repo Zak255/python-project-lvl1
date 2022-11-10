@@ -31,7 +31,8 @@ def logic_progression():
             right_answer = correct_answer != answer
             print(
                 f"'{answer}' is wrong answer ;(."
-                f"\nCorrect answer was '{right_answer}'.\nLet's try again, {user_name}!")
+                f"\nCorrect answer was '{right_answer}'."
+                f"\nLet's try again, {user_name}!")
             break
 
     if curcle == 3:

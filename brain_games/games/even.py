@@ -28,7 +28,8 @@ def is_even_game():
             right_answer = 'Yes' if random_number % 2 == 0 else 'No'
             print(
                 f"'{answer}' is wrong answer :(."
-                f"\nCorrect answer was '{right_answer}'.\nLet\'s try again, {user_name}!")
+                f"\nCorrect answer was '{right_answer}'."
+                f"\nLet\'s try again, {user_name}!")
             break
 
     if curcle == 3:

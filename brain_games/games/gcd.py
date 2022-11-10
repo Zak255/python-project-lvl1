@@ -29,7 +29,8 @@ def logic_gcd_game():
                 right_answer = maths_answer != answer
                 print(
                     f"'{answer}' is wrong answer ;(."
-                    f"\nCorrect answer was '{right_answer}'.\nLet\'s try again, {user_name}!")
+                    f"\nCorrect answer was '{right_answer}'."
+                    f"\nLet\'s try again, {user_name}!")
                 quit()
 
         print(f"Congratulations, {user_name.capitalize()}!")

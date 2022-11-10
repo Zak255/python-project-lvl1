@@ -47,7 +47,8 @@ def logic_user():
         else:
             print(
                 f"'{answer}' is wrong answer :(."
-                f"\nCorrect answer was '{correct_answer}'.\nLet\'s try again, {user_name}!")
+                f"\nCorrect answer was '{correct_answer}'."
+                f"\nLet\'s try again, {user_name}!")
             break
 
     if curcle == 3:
