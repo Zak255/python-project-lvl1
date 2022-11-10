@@ -15,12 +15,12 @@ def is_even_game():
         answer = input()
 
         if random_number % 2 == 0 and answer.capitalize() == 'Yes':
-            print("Your answer: {}!".format(answer.capitalize()))
+            print("Your answer: {}".format(answer.capitalize()))
             print("Correct!".format(answer.capitalize()))
             curcle += 1
 
         elif random_number % 2 != 0 and answer.capitalize() == 'No':
-            print("Your answer:  {}!".format(answer.capitalize()))
+            print("Your answer: {}".format(answer.capitalize()))
             print("Correct!".format(answer.capitalize()))
             curcle += 1
 

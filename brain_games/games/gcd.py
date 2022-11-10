@@ -21,7 +21,7 @@ def logic_gcd_game():
                 random_number1 -= random_number2
 
             elif maths_answer == answer:
-                print(f"Your answer: {answer}!")
+                print("Your answer: {}".format(answer))
                 print("Correct!".format())
                 break
 
