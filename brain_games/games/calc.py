@@ -18,7 +18,6 @@ def is_calc_game():
         computer_question = f'{random_number1} {value_answer} {random_number2}'
         print('Question: {}'.format(computer_question))
         answer = int(input())
-        correct_answer = False
 
         if answer == eval(computer_question):
             correct_answer = random_number1 + random_number2
