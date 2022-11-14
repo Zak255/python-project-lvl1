@@ -346,8 +346,8 @@ https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
     brain-prime
 
     Welcome to the Brain Games!
-    May I have your name? Sam
-    Hello, Sam!
+    May I have your name? Tom
+    Hello, Tom!
     Answer "yes" if given number is prime. Otherwise answer "no".
     Question: 7
     Your answer: yes
