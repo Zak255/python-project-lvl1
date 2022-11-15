@@ -20,19 +20,19 @@ def is_calc_game():
         answer = int(input())
 
         if answer == eval(computer_question):
-            correct_answer = random_number1 + random_number2
+            random_number1 + random_number2
             print("Your answer: {}".format(answer))
             print("Correct!")
             curcle += 1
 
         elif answer == eval(computer_question):
-            correct_answer = random_number1 - random_number2
+            random_number1 - random_number2
             print("Your answer: {}".format(answer))
             print("Correct!")
             curcle += 1
 
         elif answer == eval(computer_question):
-            correct_answer = random_number1 * random_number2
+            random_number1 * random_number2
             print("Your answer: {}".format(answer))
             print("Correct!")
             curcle += 1
