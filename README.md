@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/Zak255/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zak255/python-project-lvl1/actions)
 
 
-    https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
+https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
 
 🎮 Игра: "Проверка на чётность"
@@ -57,7 +57,7 @@
     Congratulations, Tom!
 
 
-    https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
+https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
   
 
 🎮 Игра: "Калькулятор"
@@ -115,7 +115,7 @@
     Congratulations, Tom!
 
 
-    https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
   
 
 🎮 Игра "НОД"
@@ -173,7 +173,7 @@
     Congratulations, Tom!
 
 
-    https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
+https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
     
 
 🎮 Игра "Арифметическая прогрессия"
@@ -233,7 +233,7 @@
     Congratulations, Tom!
 
 
-    https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
 
 
 🎮 Игра "НОД"
@@ -290,7 +290,7 @@
     Congratulations, Tom!
 
 
-    https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
+https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
 
 
 🎮 Игра "Простое ли число?"
