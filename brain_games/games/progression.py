@@ -2,6 +2,7 @@
 from random import randint
 from brain_games.cli import welcome_user
 
+
 def logic_progression():
     name = welcome_user()
     print('What number is missing in the progression?')
