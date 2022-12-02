@@ -1,12 +1,11 @@
 # !/usr/bin/env python
 from random import randint
 from math import gcd
+from brain_games.cli import welcome_user
 
 
 def logic_gcd_game():
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
-    print(f"Hello, {user_name.capitalize()}!")
+    name = welcome_user()
     print('Find the greatest common divisor of given numbers.')
 
     for i in range(0, 3):
@@ -30,7 +29,7 @@ def logic_gcd_game():
                 print(
                     f"'{answer}' is wrong answer ;(."
                     f"\nCorrect answer was '{right_answer}'."
-                    f"\nLet\'s try again, {user_name}!")
+                    f"\nLet\'s try again, {name}!")
                 quit()
 
-        print(f"Congratulations, {user_name.capitalize()}!")
+        print(f"Congratulations, {name.capitalize()}!")

@@ -1,11 +1,9 @@
 # !/usr/bin/env python
 from random import randint
-
+from brain_games.cli import welcome_user
 
 def logic_progression():
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
-    print(f"Hello, {user_name.capitalize()}!")
+    name = welcome_user()
     print('What number is missing in the progression?')
     curcle = 0
     random_list = []
@@ -32,8 +30,8 @@ def logic_progression():
             print(
                 f"'{answer}' is wrong answer ;(."
                 f"\nCorrect answer was '{right_answer}'."
-                f"\nLet's try again, {user_name}!")
+                f"\nLet's try again, {name}!")
             break
 
     if curcle == 3:
-        print(f"Congratulations, {user_name.capitalize()}!")
+        print(f"Congratulations, {name.capitalize()}!")

@@ -1,12 +1,9 @@
 # !/usr/bin/env python
 from random import randint
+from brain_games.cli import welcome_user
 
 
 number = randint(2, 20)
-
-
-def welcome_prime():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def is_prime(number):
@@ -30,9 +27,8 @@ def make_question():
 
 
 def logic_user():
-    user_name = ''
-    user_name = input("My I have your name?  ")
-    print(f"Hello, {user_name.capitalize()}!")
+    name = welcome_user()
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     curcle = 0
 
     for _ in range(0, 3):
@@ -48,8 +44,8 @@ def logic_user():
             print(
                 f"'{answer}' is wrong answer :(."
                 f"\nCorrect answer was '{correct_answer}'."
-                f"\nLet\'s try again, {user_name}!")
+                f"\nLet\'s try again, {name}!")
             break
 
     if curcle == 3:
-        print(f'Congratulations, {user_name.capitalize()}!')
+        print(f'Congratulations, {name.capitalize()}!')

@@ -1,15 +1,13 @@
 # !/usr/bin/env python
 from random import randint
 import random
+from brain_games.cli import welcome_user
 
 
-def is_calc_game():
-    curcle = 0
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
-    print(f"Hello, {user_name.capitalize()}!")
+def logic_calc():
+    name = welcome_user()
     print('What is the result of the expression?')
-
+    curcle = 0
     for i in range(0, 3):
         random_number1 = randint(0, 20)
         random_number2 = randint(1, 18)
@@ -42,8 +40,8 @@ def is_calc_game():
             print(
                 f"'{answer}' is wrong answer ;(."
                 f"\nCorrect answer was '{eval(right_answer)}'."
-                f"\nLet\'s try again, {user_name}!")
+                f"\nLet\'s try again, {name}!")
             break
 
     if curcle == 3:
-        print(f"Congratulations, {user_name.capitalize()}!")
+        print(f"Congratulations, {name.capitalize()}!")

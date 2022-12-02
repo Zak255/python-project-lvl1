@@ -1,13 +1,12 @@
 # !/usr/bin/env python
 from random import randint
+from brain_games.cli import welcome_user
 
 
 def is_even_game():
-    curcle = 0
-    print("Welcome to the Brain Games!")
-    user_name = input("May I have your name? ")
-    print(f"Hello, {user_name.capitalize()}!")
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
+    curcle = 0
 
     for i in range(0, 3):
         random_number = randint(0, 101)
@@ -29,8 +28,8 @@ def is_even_game():
             print(
                 f"'{answer}' is wrong answer :(."
                 f"\nCorrect answer was '{right_answer}'."
-                f"\nLet\'s try again, {user_name}!")
+                f"\nLet\'s try again, {name}!")
             break
 
     if curcle == 3:
-        print(f"Congratulations, {user_name.capitalize()}!")
+        print(f"Congratulations, {name.capitalize()}!")
