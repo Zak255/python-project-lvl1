@@ -13,3 +13,15 @@ def get_answer(question):
     print(f"Question: {question}")
     answer = prompt.string("Your answer: ")
     return answer
+
+def correct_answer_message():
+    print('Correct!')
+
+
+def correct_answer_massage(answer, right_answer, name):
+    print("'{}' is wrong answer ;(. Correct answer is '{}'.".format(answer, right_answer, name))
+    print("Let's try again, {}!".format(name))
+
+
+def you_win_massage(name)
+    print("Congratulations, {}!".format(name))
