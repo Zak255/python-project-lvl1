@@ -18,12 +18,12 @@ def is_prime(number):
 def make_question():
     number = randint(2, 20)
     question = str(number)
-    correct_answer = ''
+    right_answer = ''
     if is_prime(number):
-        correct_answer = 'yes'
+        right_answer = 'yes'
     else:
-        correct_answer = 'no'
-    return question, correct_answer
+        right_answer = 'no'
+    return question, right_answer
 
 
 def logic_user():
@@ -32,18 +32,18 @@ def logic_user():
     curcle = 0
 
     for _ in range(0, 3):
-        question, correct_answer = make_question()
+        question, right_answer = make_question()
         print('Question: {}'.format(question))
         answer = input("Your answer: ")
 
-        if answer == correct_answer:
+        if answer == right_answer:
             print("Correct!")
             curcle += 1
 
         else:
             print(
                 f"'{answer}' is wrong answer :(."
-                f"\nCorrect answer was '{correct_answer}'."
+                f"\nCorrect answer was '{right_answer}'."
                 f"\nLet\'s try again, {name}!")
             break
 
