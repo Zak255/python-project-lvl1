@@ -23,5 +23,5 @@ def correct_answer_massage(answer, right_answer, name):
     print("Let's try again, {}!".format(name))
 
 
-def you_win_massage(name)
+def you_win_massage(name):
     print("Congratulations, {}!".format(name))
