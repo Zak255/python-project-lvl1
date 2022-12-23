@@ -16,6 +16,6 @@ def get_answer(question):
 
 
 def correct_answer_massage(answer, right_answer, name):
-    print("'{}' is wrong answer ;(. Correct answer is '{}'.".format(answer, right_answer, name))
+    print("""'{}' is wrong answer ;(.
+    Correct answer is '{}'.".format(answer, right_answer, name)""")
     print("Let's try again, {}!".format(name))
-
