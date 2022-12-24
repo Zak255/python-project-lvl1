@@ -1,35 +1,27 @@
 # !/usr/bin/env python
 from random import randint
-from brain_games.cli import welcome_user
+from brain_games.cli import welcome_user, get_answer, answers,correct_answer_massage
 
+discription = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-def is_even_game():
+def even_game():
+    rounds = 0
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    curcle = 0
+    print(discription)
 
     for i in range(0, 3):
-        random_number = randint(0, 101)
-        print('Question: {}'.format(random_number))
-        answer = input()
-
-        if random_number % 2 == 0 and answer.capitalize() == 'Yes':
-            print("Your answer: {}".format(answer.capitalize()))
+        questions = get_answer(randint(0, 101))
+        user_answer = answers()
+        if questions % 2 == 0 and user_answer.capitalize() == "Yes":
             print("Correct!")
-            curcle += 1
-
-        elif random_number % 2 != 0 and answer.capitalize() == 'No':
-            print("Your answer: {}".format(answer.capitalize()))
+            rounds += 1
+        elif questions % 2 != 0 and user_answer.capitalize() == "No":
             print("Correct!")
-            curcle += 1
-
+            rounds += 1
         else:
-            right_answer = 'Yes' if random_number % 2 == 0 else 'No'
-            print(
-                f"'{answer}' is wrong answer :(."
-                f"\nCorrect answer was '{right_answer}'."
-                f"\nLet\'s try again, {name}!")
-            break
+            right_answer = 'Yes' if questions % 2 == 0 else 'No'
+            return correct_answer_massage(user_answer,right_answer,name)
 
-    if curcle == 3:
-        print(f"Congratulations, {name.capitalize()}!")
+    if rounds == 3:
+        print("Congratulations {}".format(name.capitalize()))        
+even_game()
