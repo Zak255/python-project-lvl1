@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import prompt
-from random import randint
 
 
 def welcome_user():
@@ -14,9 +13,11 @@ def get_answer(question):
     print(f"Question: {question}")
     return question
 
+
 def answers():
     answer = prompt.string("Your answer: ")
-    return answer 
+    return answer
+
 
 def correct_answer_massage(answer, right_answer, name):
     print(
