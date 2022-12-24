@@ -2,6 +2,7 @@
 from random import randint
 from brain_games.cli import welcome_user, get_answer, answers,correct_answer_massage
 
+
 discription = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def even_game():
@@ -24,4 +25,3 @@ def even_game():
 
     if rounds == 3:
         print("Congratulations {}".format(name.capitalize()))        
-even_game()
