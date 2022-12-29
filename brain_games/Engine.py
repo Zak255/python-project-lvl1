@@ -1,6 +1,6 @@
 from brain_games.cli import *
 import prompt
-from brain_games.games.even import question_and_correct_answer, description
+from brain_games.games.even import *
 
 
 def run_game():
@@ -17,6 +17,3 @@ def run_game():
         curcle += 1
     if curcle == 3:
         print(f"Congratulations {name.capitalize()}!")
-
-
-print(run_game())
