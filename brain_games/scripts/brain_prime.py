@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-from brain_games.games.prime import is_prime
-from brain_games.games.prime import make_question
-from brain_games.games.prime import logic_user
+#!/usr/bin/env python3
+from brain_games.Engine import run_game
+from brain_games.games import prime
 
 
 def main():
-    is_prime(2)
-    make_question()
-    logic_user()
+    run_game(prime)
 
 
 if __name__ == "__main__":
