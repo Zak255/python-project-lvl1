@@ -14,3 +14,6 @@ def question_and_correct_answer():
     else:
         correct_answer = 'No'
     return question, correct_answer
+
+
+2

@@ -13,3 +13,6 @@ def question_and_correct_answer():
     question = '{} {} {}'.format(random_number1, value_answer, random_number2)
     correct_answer = eval(f'{random_number1} {value_answer} {random_number2}')
     return question, str(correct_answer)
+
+
+1
