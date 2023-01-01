@@ -1,5 +1,5 @@
 import prompt
-from brain_games.cli import *
+from brain_games.cli import welcome_user
 
 
 def run_game(game_name):
@@ -11,8 +11,10 @@ def run_game(game_name):
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if not (user_answer == correct_answer):
-            return correct_answer_massage(user_answer, correct_answer, name)
-
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.\n"
+                  f"Let\'s try again, {name.capitalize()}!")
+            break
         print("Correct!")
         curcle += 1
     if curcle == 3:
