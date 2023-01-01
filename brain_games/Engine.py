@@ -18,4 +18,4 @@ def run_game(game_name):
         print("Correct!")
         curcle += 1
     if curcle == 3:
-        print(f"Congratulations {name.capitalize()}!")
+        print(f"Congratulations, {name.capitalize()}!")
