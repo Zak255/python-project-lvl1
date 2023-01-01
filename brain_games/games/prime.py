@@ -20,6 +20,3 @@ def question_and_correct_answer():
     number = randint(2, 20)
     question = str(number)
     return question, is_prime(number)
-
-
-1

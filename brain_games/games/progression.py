@@ -17,6 +17,3 @@ def question_and_correct_answer():
     new_str = (' '.join(map(str, random_list)))
     question = new_str
     return question, str(correct_answer)
-
-
-1
