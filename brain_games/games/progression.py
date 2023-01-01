@@ -1,6 +1,5 @@
 # !/usr/bin/env python
 from random import randint
-from brain_games.cli import *
 
 
 DESCRIPTION = 'What number is missing in the progression?'
