@@ -1,6 +1,5 @@
 # !/usr/bin/env python
 from random import randint
-from brain_games.cli import *
 
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -16,6 +15,6 @@ def is_prime(number):
 
 
 def question_and_correct_answer():
-    number = randint(2, 20)
+    number = randint(1, 99)
     question = str(number)
     return question, is_prime(number)
