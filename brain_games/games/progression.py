@@ -1,4 +1,3 @@
-# !/usr/bin/env python
 from random import randint
 
 
@@ -13,6 +12,5 @@ def question_and_correct_answer():
     index = randint(1, len(random_list) - 1)
     correct_answer = random_list[index]
     random_list[index] = '..'
-    new_str = (' '.join(map(str, random_list)))
-    question = new_str
+    question = (' '.join(map(str, random_list)))
     return question, str(correct_answer)
