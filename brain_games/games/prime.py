@@ -18,6 +18,3 @@ def question_and_correct_answer():
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'
     return question, correct_answer
-
-
-print(question_and_correct_answer())
