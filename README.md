@@ -23,15 +23,8 @@
 
 
 
-
-
-
-
-
 ---
-[![asciicast](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd.svg)](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd)
 
-  
 
 🎮 Игра: "Калькулятор"
 
@@ -40,6 +33,10 @@
     Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
     
 🟢 Пример Игры:
+
+[![asciicast](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd.svg)](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd)
+
+
 
 ---
 
@@ -55,6 +52,10 @@
     например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
     
 🟢 Пример Игры:
+
+[![asciicast](https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu.svg)](https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu)
+
+
 
 ---
 
@@ -72,6 +73,10 @@
     
 🟢 Пример Игры:
 
+[![asciicast](https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q.svg)](https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q)
+
+
+
 ---
 
     https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
@@ -85,6 +90,10 @@
 
 🟢 Пример Игры:
 
+[![asciicast](https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu.svg)](https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu)
+
+
+
 ---
 
     https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
@@ -97,5 +106,9 @@
     Пользователь должен ответить,является ли число простым.
     
 🟢 Пример Игры:
+
+[![asciicast](https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we.svg)](https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we)
+
+
 
 ---
