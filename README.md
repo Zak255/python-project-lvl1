@@ -19,24 +19,7 @@
 
 🟢 Пример Игры:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
+[![asciicast](https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU.svg)](https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU)
 
 
 
