@@ -18,9 +18,13 @@
     И ему нужно ответить 'yes', если число чётное, или 'no' — если нечётное
 
 
-## https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
-## ---
+    https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
+
+
+
+
+---
 
 https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
   
