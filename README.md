@@ -29,8 +29,8 @@
 
 
 ---
+[![asciicast](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd.svg)](https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd)
 
-    https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
   
 
 🎮 Игра: "Калькулятор"
