@@ -21,7 +21,7 @@
 
 
 
-[![asciicast](https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU)
+<a href="https://asciinema.org/a/14"><img src="https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU" width="836"/></a>
 
 
 
