@@ -4,11 +4,11 @@
 
 
 
-https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
 
 
-🎮 Игра: "Проверка на чётность"
+
+## 🎮 Игра: "Проверка на чётность"
 
 
 🟠 Необходимо реализовать игру "Проверка на чётность".
@@ -17,48 +17,10 @@ https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
     Суть игры в следующем: пользователю показывается случайное число. 
     И ему нужно ответить 'yes', если число чётное, или 'no' — если нечётное
 
-🟢 Пример Игры:
 
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Answer "yes" if the number is even, otherwise answer "no".
-    Question: 15
-    Your answer: yes
-    
-🔴 В случае, если пользователь даст неверный ответ, необходимо завершить игру и вывести сообщение:
+## https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
-    'yes' is wrong answer ;(. Correct answer was 'no'.
-    Let's try again, Tom!
-    
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующему числу
-    
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-    
-⚪️ Вывод должен получиться следующий:
-
-    brain-even
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Answer "yes" if the number is even, otherwise answer "no".
-    Question: 15
-    Your answer: no
-    Correct!
-    Question: 6
-    Your answer: yes
-    Correct!
-    Question: 7
-    Your answer: no
-    Correct!
-    Congratulations, Tom!
-
+## ---
 
 https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
   
