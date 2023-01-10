@@ -6,7 +6,7 @@
 
 
 
-
+    https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU
 
 ## 🎮 Игра: "Проверка на чётность"
 
@@ -21,14 +21,14 @@
 
 
 
-<a href="https://asciinema.org/a/14"><img src="https://asciinema.org/a/2csvu5L5Mbv5Yhsqc6tHbBxRU" width="836"/></a>
+
 
 
 
 
 ---
 
-https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
+    https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
   
 
 🎮 Игра: "Калькулятор"
@@ -39,54 +39,10 @@ https://asciinema.org/a/CBx6LqI49rKmBcOTalEXpv8Sd
     
 🟢 Пример Игры:
 
-    brain-calc
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    What is the result of the expression?
-    Question: 4 + 10
-    Your answer: 14
-    Correct!
-    
-🔴 В случае, если пользователь даст неверный ответ, необходимо вывести сообщение:
-
-    Question: 25 * 7
-    Your answer: 145
-    '145' is wrong answer ;(. Correct answer was '175'.
-    Let's try again, Tom!
-    И завершить игру.
-    
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующей операции.
-    
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-    
-⚪️ Вывод должен получиться следующий:
-
-    brain-calc
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    What is the result of the expression?
-    Question: 4 + 10
-    Your answer: 14
-    Correct!
-    Question: 25 - 11
-    Your answer: 14
-    Correct!
-    Question: 25 * 7
-    Your answer: 175
-    Correct!
-    Congratulations, Tom!
+---
 
 
-https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+    https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
   
 
 🎮 Игра "НОД"
@@ -97,54 +53,10 @@ https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
     
 🟢 Пример Игры:
 
-    brain-gcd
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Find the greatest common divisor of given numbers.
-    Question: 25 50
-    Your answer: 25
-    Correct!
-    
-🔴 В случае, если пользователь даст неверный ответ, необходимо вывести сообщение:
-
-    Question: 25 50
-    Your answer: 1
-    '1' is wrong answer ;(. Correct answer was '25'.
-    Let's try again, Tom!
-    И завершить игру.
-    
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующей операции.
-    
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-
-⚪️ Вывод должен получиться следующий:
-
-    brain-gcd
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Find the greatest common divisor of given numbers.
-    Question: 25 50
-    Your answer: 25
-    Correct!
-    Question: 100 52
-    Your answer: 4
-    Correct!
-    Question: 3 9
-    Your answer: 3
-    Correct!
-    Congratulations, Tom!
+---
 
 
-https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
+    https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
     
 
 🎮 Игра "Арифметическая прогрессия"
@@ -157,54 +69,9 @@ https://asciinema.org/a/KMdK38jXoxzUbR5vZ9HxUFs6q
     
 🟢 Пример Игры:
 
-    brain-progression
+---
 
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    What number is missing in the progression?
-    Question: 5 7 9 11 13 .. 17 19 21 23
-    Your answer: 15
-    Correct!
-    
-🔴 В случае, если пользователь даст неверный ответ, необходимо вывести сообщение:
-
-    Question: 5 7 9 11 13 .. 17 19 21 23
-    Your answer: 1
-    '1' is wrong answer ;(. Correct answer was '15'.
-    Let's try again, Tom!
-    И завершить игру.
-    
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующей операции.
-    
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-    
-⚪️ Вывод должен получиться следующий:
-
-    brain-calc
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    What is the result of the expression?
-    Question: 4 + 10
-    Your answer: 14
-    Correct!
-    Question: 25 - 11
-    Your answer: 14
-    Correct!
-    Question: 25 * 7
-    Your answer: 175
-    Correct!
-    Congratulations, Tom!
-
-
-https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
+    https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
 
 
 🎮 Игра "НОД"
@@ -214,54 +81,9 @@ https://asciinema.org/a/TnZCQzqDCP0V2CXgP4dDewptu
 
 🟢 Пример Игры:
 
-    brain-gcd
+---
 
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Find the greatest common divisor of given numbers.
-    Question: 25 50
-    Your answer: 25
-    Correct!
-    
-🔴 В случае, если пользователь даст неверный ответ, необходимо вывести сообщение:
-
-    Question: 25 50
-    Your answer: 1
-    '1' is wrong answer ;(. Correct answer was '25'.
-    Let's try again, Tom!
-    И завершить игру.
-    
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующей операции.
-    
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-    
-⚪️ Вывод должен получиться следующий:
-
-    brain-gcd
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Find the greatest common divisor of given numbers.
-    Question: 25 50
-    Your answer: 25
-    Correct!
-    Question: 100 52
-    Your answer: 4
-    Correct!
-    Question: 3 9
-    Your answer: 3
-    Correct!
-    Congratulations, Tom!
-
-
-https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
+    https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
 
 
 🎮 Игра "Простое ли число?"
@@ -272,48 +94,4 @@ https://asciinema.org/a/vFmjzaHRPdw3lsNlbbWPdS1we
     
 🟢 Пример Игры:
 
-    brain-prime
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Answer "yes" if given number is prime. Otherwise answer "no".
-    Question: 7
-    Your answer: yes
-    Correct!
-
-🔴 В случае, если пользователь даст неверный ответ, необходимо вывести сообщение:
-
-    Question: 7
-    Your answer: no
-    'no' is wrong answer ;(. Correct answer was 'yes'.
-    Let's try again, Tom!
-    И завершить игру.
-
-🟡 В случае, если пользователь ввел верный ответ, нужно отобразить:
-
-    Correct!
-    И приступить к следующей операции.
-
-🟣 Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры нужно вывести:
-
-    Congratulations, Tom!
-
-⚪️ Вывод должен получиться следующий:
-
-    brain-prime
-
-    Welcome to the Brain Games!
-    May I have your name? Tom
-    Hello, Tom!
-    Answer "yes" if given number is prime. Otherwise answer "no".
-    Question: 7
-    Your answer: yes
-    Correct!
-    Question: 10
-    Your answer: no
-    Correct!
-    Question: 3
-    Your answer: yes
-    Correct!
-    Congratulations, Tom!'''
+---
