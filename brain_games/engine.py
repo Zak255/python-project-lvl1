@@ -11,13 +11,15 @@ def run(game):
         question, correct_answer = game.question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
-        if user_answer == correct_answer:
-            print("Correct!")
-            curcle += 1
-        else:
+
+        if not (user_answer == correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.\n"
                   f"Let\'s try again, {name}!")
             break
+
+        else:
+            print("Correct!")
+            curcle += 1
     else:
         print(f"Congratulations, {name}!")
