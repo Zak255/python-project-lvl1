@@ -6,8 +6,8 @@ def run(game):
     name = prompt.string('May I have your name? ')
     print('Hello, {}'.format(name))
     print(game.DESCRIPTION)
-    curcle = 0
-    for _ in range(0, 3):
+
+    for CURCLE in range(0, 3):
         question, correct_answer = game.question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
@@ -19,6 +19,6 @@ def run(game):
             break
         else:
             print("Correct!")
-            curcle += 1
-    else:
+            CURCLE += 1
+    if CURCLE == 3:
         print(f"Congratulations, {name}!")
